@@ -1,8 +1,4 @@
-// import * as React from 'react';
-// import Button from '../Button';
+import * as React from 'react';
+import Foo from '../Foo';
 
-// export default (
-//   <Button uxpId="Button-1" color="primary" size="medium" variant="contained">
-//     Button
-//   </Button>
-// );
+export default <Foo uxpId="foo-1">Foo Content</Foo>;
